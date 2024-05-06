@@ -19,6 +19,14 @@ export function Post() {
                 <p>Oi, eu sou um bom programador, mas eu vou serei excelente!</p>
                 <p>Para mais informações, fale comigo ou acesse meu <a href='https://medium.com/@joovitordes/'>Medium</a></p>
             </div>
+
+            <form className={styles.commentForm}>
+                <strong>Deixe seu feedback</strong>
+
+                <textarea placeholder='Deixe um comentário'/>
+
+                <footer><button type='submit'>Publicar</button></footer>
+            </form>
         </article>
     )
 }
